@@ -1,0 +1,28 @@
+{
+  "name": "vbd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server --content-base src",
+    "dev": "webpack-dev-server --history-api-fallback --inline --progress --content-base src",
+    "build": "webpack --config webpack.build.js --content-base app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhosh1a32/Virtual-Blood-Donation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhosh1a32/Virtual-Blood-Donation/issues"
+  },
+  "homepage": "https://github.com/santhosh1a32/Virtual-Blood-Donation#readme",
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
